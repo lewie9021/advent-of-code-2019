@@ -1,0 +1,10 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "Advent Of Code 2019",
+  "main": "index.js",
+  "repository": "git@github.com:lewie9021/advent-of-code-2019.git",
+  "author": "Lewis Barnes",
+  "license": "MIT",
+  "private": true
+}
