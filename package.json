@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Advent Of Code 2019",
   "main": "index.js",
+  "scripts": {
+    "day:1": "ts-node ./src/day-1"
+  },
   "repository": "git@github.com:lewie9021/advent-of-code-2019.git",
   "author": "Lewis Barnes",
   "license": "MIT",
