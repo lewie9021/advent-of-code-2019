@@ -1,4 +1,4 @@
-import { calculateFuel, calculateAdditionalFuel } from "../day-1";
+import { calculateFuel, calculateAdditionalFuel } from "../dayOne";
 
 describe("calculateFuel", () => {
   it("returns 2 for a mass of 12", () => {

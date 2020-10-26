@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "day:1": "ts-node ./src/day-1/day-1.ts"
+    "day:1": "ts-node src/day-1/day-1.ts",
+    "day:2": "ts-node src/day-2/day-2.ts"
   },
   "repository": "git@github.com:lewie9021/advent-of-code-2019.git",
   "author": "Lewis Barnes",
