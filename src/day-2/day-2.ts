@@ -1,3 +1,6 @@
+import * as path from "path";
+import { readArray } from "../helpers/input";
+
 export const executeOpcode = (instructions: Array<number>, index: number) => {
   const opcode = instructions[index];
 
@@ -45,3 +48,20 @@ export const executeIntcode = (instructions: Array<number>, index = 0) => {
 
   return executeIntcode(result.instructions, result.index);
 };
+
+export const calculatePartOne = () => {
+  const instructions = readArray(path.join(__dirname, "input.txt"))
+    .map((opcode) => parseInt(opcode));
+  const result = executeIntcode(instructions);
+
+  return result[0];
+};
+
+export const main = () => {
+  console.log("Part One:", calculatePartOne());
+  // console.log("Part Two:", calculatePartTwo());
+}
+
+if (require.main === module) {
+  main();
+}
